@@ -5,7 +5,7 @@ const SidebarChannel = ({ id, channel }) => {
     <div className="sidebarChannel">
       <h4>
         <span className="sidebarChannel__hash">#</span>
-        Youtube
+        {channel}
       </h4>
     </div>
   );
