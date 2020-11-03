@@ -5,11 +5,11 @@ import AddCircleIcon from "@material-ui/icons/AddCircle";
 import CardGiftcardIcon from "@material-ui/icons/CardGiftcard";
 import GifIcon from "@material-ui/icons/Gif";
 import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
-import { selectUser } from "./features/userSlice";
-import { selectChannelId, selectChannelName } from "./features/appSlice";
-import db from "./firebase";
+import { selectUser } from "../../features/userSlice";
+import { selectChannelId, selectChannelName } from "../../features/appSlice";
+import db from "../../firebase";
 import firebase from "firebase";
-import Message from "./Message";
+import Message from "../sidebar/Message";
 import "./Chat.css";
 
 const Chat = () => {
